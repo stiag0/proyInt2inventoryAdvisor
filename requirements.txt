@@ -1,0 +1,8 @@
+#python3.7
+requests
+pymongo
+matplotlib
+flask
+waitress
+flask_cors
+xlrd
