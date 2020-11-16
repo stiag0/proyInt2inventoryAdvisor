@@ -1,0 +1,3 @@
+,idPedido,idUser,esCombo,nombreProducto,cantidadVendida,costoProd,idProducto,idProveedor,precioProd,ganNet
+0,1586469177409,1586103588095.0,False,Patillera peanut wahl,1,128000,1549395273065,1601684853762.0,139000.0,0.0859375
+1,1600287740734,1599868974774.0,False,Patillera peanut wahl,1,128000,1549395273065,1601684853762.0,157000.0,0.2265625

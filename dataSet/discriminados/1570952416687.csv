@@ -1,0 +1,3 @@
+,idPedido,idUser,esCombo,nombreProducto,cantidadVendida,costoProd,idProducto,idProveedor,precioProd,ganNet
+0,1571867456308,1570638110314.0,False,Tapa bocas pirata,1,2600,1570952416687,111.0,3900.0,0.5
+1,1584214844040,1581463060029.0,False,Tapa bocas pirata,1,2600,1570952416687,111.0,3900.0,0.5

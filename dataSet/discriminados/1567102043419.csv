@@ -1,0 +1,4 @@
+,idPedido,idUser,esCombo,nombreProducto,cantidadVendida,costoProd,idProducto,idProveedor,precioProd,ganNet
+0,1568405087952,1564197318691.0,False,Tapa bocas con diseño,1,2000,1567102043419,111.0,3900.0,0.95
+1,1570169212792,1569782847915.0,False,Tapa bocas con diseño,1,2000,1567102043419,111.0,3900.0,0.95
+2,1570679857486,1569755761323.0,False,Tapa bocas con diseño,1,2000,1567102043419,111.0,3900.0,0.95

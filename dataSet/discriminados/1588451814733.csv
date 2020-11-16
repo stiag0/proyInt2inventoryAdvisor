@@ -1,0 +1,4 @@
+,idPedido,idUser,esCombo,nombreProducto,cantidadVendida,costoProd,idProducto,idProveedor,precioProd,ganNet
+0,1592693563725,1592163272323.0,False,Pipa profesional,1,5000,1588451814733,111.0,10500.0,1.1
+1,1600407314690,1600128238688.0,False,Pipa profesional,1,5000,1588451814733,111.0,10500.0,1.1
+2,1601159373077,1600978756313.0,False,Pipa profesional,1,5000,1588451814733,111.0,10500.0,1.1

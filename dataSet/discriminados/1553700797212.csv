@@ -1,0 +1,3 @@
+,idPedido,idUser,esCombo,nombreProducto,cantidadVendida,costoProd,idProducto,idProveedor,precioProd,ganNet
+0,1566673988443,1565643817733.0,False,Esponja para peinar,1,10000,1553700797212,111.0,18000.0,0.8
+1,1573007136631,1572642533038.0,False,Esponja para peinar,1,10000,1553700797212,111.0,18000.0,0.8

@@ -1,0 +1,4 @@
+,idPedido,idUser,esCombo,nombreProducto,cantidadVendida,costoProd,idProducto,idProveedor,precioProd,ganNet
+0,1583354392173,1583248184182.0,False,tapa bocas dolar supreme ,1,2600,1576186905516,111.0,3900.0,0.5
+1,1583878103020,1583716586465.0,False,tapa bocas pluto,1,2600,1576186905516,111.0,3900.0,0.5
+2,1584632396647,1584405488876.0,False,tapa bocas pluto,1,2600,1576186905516,111.0,3900.0,0.5

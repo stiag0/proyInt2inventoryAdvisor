@@ -1,0 +1,4 @@
+,idPedido,idUser,esCombo,nombreProducto,cantidadVendida,costoProd,idProducto,idProveedor,precioProd,ganNet
+0,1584654162946,1584057755534.0,False,tapa bocas diseño corazones,1,3900,1584550283672,111.0,3900.0,0.0
+1,1584654971401,1584543687350.0,False,tapa bocas diseño corazones,1,3900,1584550283672,111.0,3900.0,0.0
+2,1584655300565,1584552586761.0,False,tapa bocas diseño corazones,1,3900,1584550283672,111.0,3900.0,0.0

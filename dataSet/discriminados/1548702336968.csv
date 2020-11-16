@@ -1,0 +1,3 @@
+,idPedido,idUser,esCombo,nombreProducto,cantidadVendida,costoProd,idProducto,idProveedor,precioProd,ganNet
+0,1575755980621,1572212689704.0,False,Cera depilatoria Ceramiel 1kg,1,24000,1548702336968,1601684853762.0,31200.0,0.30000000000000004
+1,1576707429532,1567309750699.0,False,Cera depilatoria Ceramiel 1kg,1,24000,1548702336968,1601684853762.0,31200.0,0.30000000000000004

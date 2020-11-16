@@ -1,0 +1,4 @@
+,idPedido,idUser,esCombo,nombreProducto,cantidadVendida,costoProd,idProducto,idProveedor,precioProd,ganNet
+0,1579299383259,1577284565629.0,False,Perfume Ossion Eau de perfume cologne Ocean Wave,1,11500,1576035390144,1601741886998.0,25900.0,1.2521739130434781
+1,1591743682301,1591469969604.0,False,Perfume Ossion Eau de perfume cologne Ocean Wave,1,11500,1576035390144,1601741886998.0,25900.0,1.2521739130434781
+2,1596752285941,1596140019505.0,False,Perfume Ossion Eau de perfume cologne Ocean Wave,1,11500,1576035390144,1601741886998.0,25900.0,1.2521739130434781

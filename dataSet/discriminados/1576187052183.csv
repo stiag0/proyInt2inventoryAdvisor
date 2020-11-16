@@ -1,0 +1,6 @@
+,idPedido,idUser,esCombo,nombreProducto,cantidadVendida,costoProd,idProducto,idProveedor,precioProd,ganNet
+0,1579980222016,1579816652599.0,False,Tapa bocas con diseño tigerKing,1,2600,1576187052183,111.0,3900.0,0.5
+1,1583353310785,1580927872547.0,False,Tapa bocas con diseño tigerKing,1,2600,1576187052183,111.0,3900.0,0.5
+2,1583967329106,1583639830197.0,False,Tapa bocas con diseño tigerKing,1,2600,1576187052183,111.0,3900.0,0.5
+3,1584214946594,1584028326770.0,False,Tapa bocas con diseño tigerKing,2,2600,1576187052183,111.0,7800.0,0.5
+4,1585087112016,1581950800033.0,False,Tapa bocas con diseño tigerKing,1,2600,1576187052183,111.0,3900.0,0.5

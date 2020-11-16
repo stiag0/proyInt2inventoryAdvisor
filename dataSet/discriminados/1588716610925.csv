@@ -1,0 +1,4 @@
+,idPedido,idUser,esCombo,nombreProducto,cantidadVendida,costoProd,idProducto,idProveedor,precioProd,ganNet
+0,1589850790258,1588628701334.0,False,Piedra quita durezas,1,1200,1588716610925,111.0,3900.0,2.25
+1,1589854366002,1586569671483.0,False,Piedra quita durezas,1,1200,1588716610925,111.0,3900.0,2.25
+2,1593912309408,1592446172368.0,False,Piedra quita durezas,1,1200,1588716610925,111.0,3900.0,2.25

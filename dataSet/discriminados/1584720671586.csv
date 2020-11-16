@@ -1,0 +1,4 @@
+,idPedido,idUser,esCombo,nombreProducto,cantidadVendida,costoProd,idProducto,idProveedor,precioProd,ganNet
+0,1585341705233,1583852257799.0,False,Tapa bocas diseño mary,1,3900,1584720671586,111.0,3900.0,0.0
+1,1585341719149,1584713350568.0,False,Tapa bocas diseño mary,1,3900,1584720671586,111.0,3900.0,0.0
+2,1585341747193,1584720358646.0,False,Tapa bocas diseño mary,1,3900,1584720671586,111.0,3900.0,0.0

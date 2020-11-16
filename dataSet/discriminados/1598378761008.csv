@@ -1,0 +1,3 @@
+,idPedido,idUser,esCombo,nombreProducto,cantidadVendida,costoProd,idProducto,idProveedor,precioProd,ganNet
+0,1599087016216,1598928525762.0,False,Talquera acrílico,1,10000,1598378761008,111.0,14900.0,0.49
+1,1601427234085,1601004995117.0,False,Talquera acrílico,1,10000,1598378761008,111.0,14900.0,0.49

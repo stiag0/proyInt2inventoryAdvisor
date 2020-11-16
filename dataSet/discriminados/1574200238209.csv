@@ -1,0 +1,4 @@
+,idPedido,idUser,esCombo,nombreProducto,cantidadVendida,costoProd,idProducto,idProveedor,precioProd,ganNet
+0,1574976417210,1574530284119.0,False,Tapa bocas pato,1,2000,1574200238209,111.0,3900.0,0.95
+1,1576963478417,1571419615715.0,False,Tapa bocas pato,1,2000,1574200238209,111.0,3900.0,0.95
+2,1579628258087,1577842201412.0,False,Tapa bocas pato,1,2000,1574200238209,111.0,3900.0,0.95

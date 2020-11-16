@@ -1,0 +1,4 @@
+,idPedido,idUser,esCombo,nombreProducto,cantidadVendida,costoProd,idProducto,idProveedor,precioProd,ganNet
+0,1590986055489,1588284359801.0,False,Rejilla pipa,1,500,1588449131784,111.0,1900.0,2.8
+1,1592693563725,1592163272323.0,False,Rejilla pipa,1,500,1588449131784,111.0,1900.0,2.8
+2,1593210692643,1591590514394.0,False,Rejilla pipa,1,500,1588449131784,111.0,1900.0,2.8

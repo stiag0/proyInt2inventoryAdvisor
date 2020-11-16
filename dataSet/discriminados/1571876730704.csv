@@ -1,0 +1,3 @@
+,idPedido,idUser,esCombo,nombreProducto,cantidadVendida,costoProd,idProducto,idProveedor,precioProd,ganNet
+0,1574097516148,1572029033201.0,False,Reloj Barber Anuncio,1,13500,1571876730704,111.0,24900.0,0.8444444444444446
+1,1574707519541,1573962487727.0,False,Reloj Barber Anuncio,1,13500,1571876730704,111.0,24900.0,0.8444444444444446

@@ -1,0 +1,4 @@
+,idPedido,idUser,esCombo,nombreProducto,cantidadVendida,costoProd,idProducto,idProveedor,precioProd,ganNet
+0,1585087281310,1584590006316.0,False,gel anti_bacterial 1Litro,1,12000,1584562536778,111.0,21900.0,0.825
+1,1587516690692,1586885288296.0,False,gel anti_bacterial 1Litro,1,12000,1584562536778,111.0,21900.0,0.825
+2,1592442390917,1578095956826.0,False,gel anti_bacterial 1Litro,1,12000,1584562536778,111.0,21900.0,0.825

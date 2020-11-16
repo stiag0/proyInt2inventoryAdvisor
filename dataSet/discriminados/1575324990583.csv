@@ -1,0 +1,3 @@
+,idPedido,idUser,esCombo,nombreProducto,cantidadVendida,costoProd,idProducto,idProveedor,precioProd,ganNet
+0,1580926381988,1580824777579.0,False,Peine Toppik,1,2500,1575324990583,1601688802034.0,7900.0,2.16
+1,1588454548461,1587940372791.0,False,Peine Toppik,1,2500,1575324990583,1601688802034.0,7900.0,2.16

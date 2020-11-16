@@ -1,0 +1,5 @@
+,idPedido,idUser,esCombo,nombreProducto,cantidadVendida,costoProd,idProducto,idProveedor,precioProd,ganNet
+0,1580323966051,1580225075485.0,False,Combo barba con tónico + crema peinar + derma roller + domicilio,1,37400,1579903244723,1601741886998.0,69000.0,0.8449197860962567
+1,1581797341856,1581632890220.0,False,Combo barba con tónico + crema peinar + derma roller + domicilio,1,37400,1579903244723,1601741886998.0,69000.0,0.8449197860962567
+2,1590882745573,1589578763311.0,False,Combo barba con tónico + crema peinar + derma roller + domicilio,1,37400,1579903244723,1601741886998.0,69000.0,0.8449197860962567
+3,1594864277455,1594747593932.0,False,Combo barba con tónico + crema peinar + derma roller + domicilio,1,37400,1579903244723,1601741886998.0,69000.0,0.8449197860962567

@@ -1,0 +1,5 @@
+,idPedido,idUser,esCombo,nombreProducto,cantidadVendida,costoProd,idProducto,idProveedor,precioProd,ganNet
+0,1564778988512,1564583554930.0,False,Cera Gummy Wax Matte,1,16000,28,111.0,35000.0,1.1875
+1,1565547281410,1565278583244.0,False,Cera Gummy Wax Matte,1,16000,28,111.0,35000.0,1.1875
+2,1571344599422,1571154681362.0,False,Cera Gummy Wax Matte,1,16000,28,111.0,24700.0,0.54375
+3,1571688281949,1571507504623.0,False,Cera Gummy Wax Matte,1,16000,28,111.0,24700.0,0.54375

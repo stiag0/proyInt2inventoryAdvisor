@@ -1,0 +1,4 @@
+,idPedido,idUser,esCombo,nombreProducto,cantidadVendida,costoProd,idProducto,idProveedor,precioProd,ganNet
+0,1588732955318,1587685511073.0,False,boton poste barberia,1,6000,1582923369520,111.0,10500.0,0.75
+1,1594335379777,1593295129802.0,False,boton poste barberia,2,6000,1582923369520,111.0,21000.0,0.75
+2,1602039319324,1601915443020.0,False,boton poste barberia,1,6000,1582923369520,111.0,10500.0,0.75

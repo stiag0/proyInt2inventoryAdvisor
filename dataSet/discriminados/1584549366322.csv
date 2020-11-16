@@ -1,0 +1,5 @@
+,idPedido,idUser,esCombo,nombreProducto,cantidadVendida,costoProd,idProducto,idProveedor,precioProd,ganNet
+0,1584654162946,1584057755534.0,False,Tapa bocas porky weed,1,3900,1584549366322,111.0,3900.0,0.0
+1,1584654225004,1582209744492.0,False,Tapa bocas porky weed,1,3900,1584549366322,111.0,3900.0,0.0
+2,1584654427373,1567473974138.0,False,Tapa bocas porky weed,1,3900,1584549366322,111.0,3900.0,0.0
+3,1585341800138,1584725142947.0,False,Tapa bocas porky weed,1,3900,1584549366322,111.0,3900.0,0.0

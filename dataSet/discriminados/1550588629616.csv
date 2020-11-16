@@ -1,0 +1,3 @@
+,idPedido,idUser,esCombo,nombreProducto,cantidadVendida,costoProd,idProducto,idProveedor,precioProd,ganNet
+0,1564086081536,1563988069604.0,False,Barbera magnetica ,1,30000,1550588629616,111.0,40000.0,0.33333333333333326
+1,1565547170077,1565288466435.0,False,Barbera magnetica ,1,30000,1550588629616,111.0,40000.0,0.33333333333333326

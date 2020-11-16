@@ -1,0 +1,4 @@
+,idPedido,idUser,esCombo,nombreProducto,cantidadVendida,costoProd,idProducto,idProveedor,precioProd,ganNet
+0,1583273800384,1582765316013.0,False,Murrays Billeys D-Luxe Grooming creme 4oz,1,23900,1547770885916,111.0,38400.0,0.606694560669456
+1,1590515276066,1589236784875.0,False,Murrays Billeys D-Luxe Grooming creme 4oz,1,23900,1547770885916,111.0,38400.0,0.606694560669456
+2,1599061367330,1599015444348.0,False,Murrays Billeys D-Luxe Grooming creme 4oz,1,23900,1547770885916,111.0,38400.0,0.606694560669456

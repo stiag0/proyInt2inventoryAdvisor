@@ -1,0 +1,3 @@
+,idPedido,idUser,esCombo,nombreProducto,cantidadVendida,costoProd,idProducto,idProveedor,precioProd,ganNet
+0,1570679756996,1570483905289.0,False,Pomada suavecito,1,35000,1565804960184,111.0,39900.0,0.1399999999999999
+1,1575470025989,1574805699315.0,False,Pomada Suavecito Tradicional,1,35000,1565804960184,111.0,39900.0,0.1399999999999999

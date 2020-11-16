@@ -1,0 +1,3 @@
+,idPedido,idUser,esCombo,nombreProducto,cantidadVendida,costoProd,idProducto,idProveedor,precioProd,ganNet
+0,1585341719149,1584713350568.0,False,Tapa bocas mitad joker,1,3900,1584727534676,111.0,3900.0,0.0
+1,1585603128148,1584821521080.0,False,Tapa bocas joker 2,1,3900,1584727534676,111.0,3900.0,0.0

@@ -1,0 +1,4 @@
+,idPedido,idUser,esCombo,nombreProducto,cantidadVendida,costoProd,idProducto,idProveedor,precioProd,ganNet
+0,1584654162946,1584057755534.0,False,Tapa bocas diseño looney,1,3900,1584551304810,111.0,3900.0,0.0
+1,1584655300565,1584552586761.0,False,Tapa bocas diseño looney,1,3900,1584551304810,111.0,3900.0,0.0
+2,1586993408031,1585226495185.0,False,Tapa bocas diseño marvin,1,3900,1584551304810,111.0,3900.0,0.0

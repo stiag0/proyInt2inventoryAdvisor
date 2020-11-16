@@ -1,0 +1,3 @@
+,idPedido,idUser,esCombo,nombreProducto,cantidadVendida,costoProd,idProducto,idProveedor,precioProd,ganNet
+0,1581546711081,1581017794428.0,False,Poste barbería mixto,1,150000,1578520809423,111.0,230000.0,0.5333333333333334
+1,1583432898866,1582660489911.0,False,Poste barbería mixto,1,150000,1578520809423,111.0,230000.0,0.5333333333333334

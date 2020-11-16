@@ -1,0 +1,4 @@
+,idPedido,idUser,esCombo,nombreProducto,cantidadVendida,costoProd,idProducto,idProveedor,precioProd,ganNet
+0,1574707499718,1574441706248.0,False,Tapa diseño gris,1,7000,1570954003445,111.0,14000.0,1.0
+1,1586477107909,1586360983065.0,False,Tapa diseño gris,1,7000,1570954003445,111.0,14000.0,1.0
+2,1588887377680,1588632281919.0,False,Tapa diseño gris,1,7000,1570954003445,111.0,14000.0,1.0

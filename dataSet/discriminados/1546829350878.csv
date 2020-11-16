@@ -1,0 +1,4 @@
+,idPedido,idUser,esCombo,nombreProducto,cantidadVendida,costoProd,idProducto,idProveedor,precioProd,ganNet
+0,1576352785726,1573502194397.0,False,Espuma de afeitar para piel sensible,1,6800,1546829350878,1601684853762.0,8500.0,0.25
+1,1587866403646,1587400344113.0,False,Espuma de afeitar para piel sensible,1,6800,1546829350878,1601684853762.0,8900.0,0.3088235294117647
+2,1593565474098,1583167514677.0,False,Espuma de afeitar para piel sensible,1,6800,1546829350878,1601684853762.0,8900.0,0.3088235294117647

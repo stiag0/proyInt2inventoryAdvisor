@@ -1,0 +1,4 @@
+,idPedido,idUser,esCombo,nombreProducto,cantidadVendida,costoProd,idProducto,idProveedor,precioProd,ganNet
+0,1578427242757,1576683693175.0,False,tapa bocas con diseño cierre belcro,1,5000,1574879522537,111.0,8000.0,0.6000000000000001
+1,1579980222016,1579816652599.0,False,tapa bocas con diseño cierre belcro,1,5500,1574879522537,111.0,8000.0,0.4545454545454546
+2,1583340414409,1583001953205.0,False,tapa bocas con diseño cierre belcro,1,5500,1574879522537,111.0,8000.0,0.4545454545454546

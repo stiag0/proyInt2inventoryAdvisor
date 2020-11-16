@@ -1,0 +1,3 @@
+,idPedido,idUser,esCombo,nombreProducto,cantidadVendida,costoProd,idProducto,idProveedor,precioProd,ganNet
+0,1592012351036,1585680632283.0,False,Coca tintura,1,1500,1587781597130,111.0,4900.0,2.2666666666666666
+1,1594261919974,1593752721400.0,False,Coca tintura,1,1500,1587781597130,111.0,4900.0,2.2666666666666666

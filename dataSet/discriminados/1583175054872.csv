@@ -1,0 +1,4 @@
+,idPedido,idUser,esCombo,nombreProducto,cantidadVendida,costoProd,idProducto,idProveedor,precioProd,ganNet
+0,1583878103020,1583716586465.0,False,tapa bocas,1,1500,1583175054872,111.0,3900.0,1.6
+1,1585087281310,1584590006316.0,False,tapa bocas,1,1500,1583175054872,111.0,3900.0,1.6
+2,1585876926367,1585669198250.0,False,tapa bocas,1,1500,1583175054872,111.0,3900.0,1.6

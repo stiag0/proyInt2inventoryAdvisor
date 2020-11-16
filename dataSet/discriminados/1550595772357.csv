@@ -1,0 +1,3 @@
+,idPedido,idUser,esCombo,nombreProducto,cantidadVendida,costoProd,idProducto,idProveedor,precioProd,ganNet
+0,1568309951436,1568056663331.0,False,Repuesto tapete shaver Andis,1,48000,1550595772357,1601684853762.0,58000.0,0.20833333333333326
+1,1570922672684,1569273831149.0,False,Repuesto tapete shaver Andis,1,48000,1550595772357,1601684853762.0,58000.0,0.20833333333333326

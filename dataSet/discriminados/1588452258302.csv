@@ -1,0 +1,3 @@
+,idPedido,idUser,esCombo,nombreProducto,cantidadVendida,costoProd,idProducto,idProveedor,precioProd,ganNet
+0,1590713981336,1584293912372.0,False,Pipa botella negra,1,5000,1588452258302,111.0,10500.0,1.1
+1,1591121063347,1590068220124.0,False,Pipa botella negra,1,5000,1588452258302,111.0,10500.0,1.1

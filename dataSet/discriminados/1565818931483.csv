@@ -1,0 +1,5 @@
+,idPedido,idUser,esCombo,nombreProducto,cantidadVendida,costoProd,idProducto,idProveedor,precioProd,ganNet
+0,1572733875013,1570455713589.0,False,Andis Shaver plus profoil lithiu la afeitadora favorita de los barbero,1,200000,1565818931483,1601689078476.0,257300.0,0.2865
+1,1575046173070,1574179261696.0,False,Andis Shaver plus profoil lithiu la afeitadora favorita de los barbero,1,200000,1565818931483,1601689078476.0,257300.0,0.2865
+2,1576006811818,1572629626508.0,False,Andis Shaver plus profoil lithiu la afeitadora favorita de los barbero,1,200000,1565818931483,1601689078476.0,257300.0,0.2865
+3,1598726865046,1582184621326.0,False,Andis Shaver plus profoil lithiu la afeitadora favorita de los barbero,1,200000,1565818931483,1601689078476.0,293000.0,0.4650000000000001

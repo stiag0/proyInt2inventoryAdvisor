@@ -1,0 +1,4 @@
+,idPedido,idUser,esCombo,nombreProducto,cantidadVendida,costoProd,idProducto,idProveedor,precioProd,ganNet
+0,1584654162946,1584057755534.0,False,Tapa bocas diseño coyote,1,3900,1584550229353,111.0,3900.0,0.0
+1,1584654427373,1567473974138.0,False,Tapa bocas diseño coyote,1,3900,1584550229353,111.0,3900.0,0.0
+2,1584654971401,1584543687350.0,False,Tapa bocas diseño coyote,1,3500,1584550229353,111.0,3900.0,0.11428571428571432

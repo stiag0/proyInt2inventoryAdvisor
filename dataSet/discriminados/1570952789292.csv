@@ -1,0 +1,4 @@
+,idPedido,idUser,esCombo,nombreProducto,cantidadVendida,costoProd,idProducto,idProveedor,precioProd,ganNet
+0,1573855502601,1573674638891.0,False,Tapa bocas barber colores,1,2600,1570952789292,111.0,3900.0,0.5
+1,1576270750049,1571689427522.0,False,Tapa bocas barber colores,1,2600,1570952789292,111.0,3900.0,0.5
+2,1583354083660,1583210915644.0,False,Tapa bocas barber colores,1,2600,1570952789292,111.0,3900.0,0.5

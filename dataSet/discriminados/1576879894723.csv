@@ -1,0 +1,5 @@
+,idPedido,idUser,esCombo,nombreProducto,cantidadVendida,costoProd,idProducto,idProveedor,precioProd,ganNet
+0,1577566807042,1577477611378.0,False,Combo barba cera + bálsamo + domicilio gratis,1,20000,1576879894723,1601741886998.0,47900.0,1.395
+1,1590608220009,1589995791782.0,False,Combo barba cera + bálsamo + domicilio gratis,1,20000,1576879894723,1601741886998.0,47900.0,1.395
+2,1591238981734,1588100933754.0,False,Combo barba cera + bálsamo + domicilio gratis,1,20000,1576879894723,1601741886998.0,47900.0,1.395
+3,1591911558800,1591634385430.0,False,Combo barba cera + bálsamo + domicilio gratis,1,20000,1576879894723,1601741886998.0,47900.0,1.395

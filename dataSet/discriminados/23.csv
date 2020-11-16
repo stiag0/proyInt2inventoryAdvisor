@@ -1,0 +1,5 @@
+,idPedido,idUser,esCombo,nombreProducto,cantidadVendida,costoProd,idProducto,idProveedor,precioProd,ganNet
+0,1570679710313,1570552018606.0,False,loción antibacterial dipsa pequeño,1,5800,23,111.0,9000.0,0.5517241379310345
+1,1574889690020,1574283835068.0,False,loción antibacterial dipsa pequeño,2,5800,23,111.0,9000.0,-0.22413793103448276
+2,1585844087257,1577046641488.0,False,loción antibacterial dipsa pequeño,1,5800,23,111.0,9000.0,0.5517241379310345
+3,1589169152257,1584427925965.0,False,loción antibacterial dipsa pequeño,1,5800,23,111.0,9000.0,0.5517241379310345

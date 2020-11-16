@@ -1,0 +1,5 @@
+,idPedido,idUser,esCombo,nombreProducto,cantidadVendida,costoProd,idProducto,idProveedor,precioProd,ganNet
+0,1566858417907,1566316970263.0,False,Talco 700 GRAMOS corporal suavizante y protector Suor,2,9000,1565996424072,111.0,11700.0,-0.35
+1,1567710138257,1567619491739.0,False,Talco 700 GRAMOS corporal suavizante y protector Suor,1,9000,1565996424072,111.0,11700.0,0.30000000000000004
+2,1574707814598,1563650072108.0,False,Talco Snor 700 GRAMOS corporal suavizante y protector Suor,1,9000,1565996424072,111.0,11500.0,0.2777777777777777
+3,1575755980621,1572212689704.0,False,Talco Snor 700 GRAMOS corporal suavizante y protector Suor,1,9000,1565996424072,111.0,11500.0,0.2777777777777777

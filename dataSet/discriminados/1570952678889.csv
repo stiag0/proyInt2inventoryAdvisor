@@ -1,0 +1,5 @@
+,idPedido,idUser,esCombo,nombreProducto,cantidadVendida,costoProd,idProducto,idProveedor,precioProd,ganNet
+0,1574109823519,1573584849354.0,False,Tapa bocas blanco barber,1,2600,1570952678889,111.0,3900.0,0.5
+1,1583354392173,1583248184182.0,False,Tapa bocas blanco barber,1,2600,1570952678889,111.0,3900.0,0.5
+2,1583530481976,1583434218419.0,False,Tapa bocas blanco barber,1,2600,1570952678889,111.0,3900.0,0.5
+3,1583878103020,1583716586465.0,False,Tapa bocas blanco donald,1,2600,1570952678889,111.0,3900.0,0.5

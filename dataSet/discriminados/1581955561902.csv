@@ -1,0 +1,3 @@
+,idPedido,idUser,esCombo,nombreProducto,cantidadVendida,costoProd,idProducto,idProveedor,precioProd,ganNet
+0,1582668570567,1582396823690.0,False,Peine carbono,1,2500,1581955561902,1601688802034.0,4500.0,0.8
+1,1591238835522,1589647492067.0,False,Peine carbono,1,2500,1581955561902,1601688802034.0,4500.0,0.8

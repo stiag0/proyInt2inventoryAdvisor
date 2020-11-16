@@ -1,0 +1,4 @@
+,idPedido,idUser,esCombo,nombreProducto,cantidadVendida,costoProd,idProducto,idProveedor,precioProd,ganNet
+0,1577566855560,1577458398929.0,False,Cuchilla máquina wahl GENÉRICA,1,10000,1573861408613,111.0,28000.0,1.7999999999999998
+1,1583254137755,1582908188912.0,False,Cuchilla máquina wahl GENÉRICA,1,10000,1573861408613,111.0,21900.0,1.19
+2,1583966679851,1582310284061.0,False,Cuchilla máquina wahl GENÉRICA,1,10000,1573861408613,111.0,21900.0,1.19

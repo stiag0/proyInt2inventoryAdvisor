@@ -1,0 +1,3 @@
+,idPedido,idUser,esCombo,nombreProducto,cantidadVendida,costoProd,idProducto,idProveedor,precioProd,ganNet
+0,1567631293104,1567309750699.0,False,Gel Afeitar Elegance Earth,1,22000,1566588298678,1601687067772.0,44000.0,1.0
+1,1592455361996,1567309750699.0,False,Gel Afeitar Elegance Earth,1,22000,1566588298678,1601687067772.0,29900.0,0.3590909090909091

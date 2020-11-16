@@ -1,0 +1,3 @@
+,idPedido,idUser,esCombo,nombreProducto,cantidadVendida,costoProd,idProducto,idProveedor,precioProd,ganNet
+0,1591743682301,1591469969604.0,False,Loción dermatónico + domicilio gratis,1,17250,1586275209137,111.0,39900.0,1.3130434782608695
+1,1592103864718,1591981047628.0,False,Loción dermatónico + domicilio gratis,1,17250,1586275209137,111.0,39900.0,1.3130434782608695

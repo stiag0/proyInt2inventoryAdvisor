@@ -1,0 +1,3 @@
+,idPedido,idUser,esCombo,nombreProducto,cantidadVendida,costoProd,idProducto,idProveedor,precioProd,ganNet
+0,1573250331361,1573055790089.0,False,Reloj Jack Daniel's,1,13500,1571875934257,111.0,24900.0,0.8444444444444446
+1,1579730737796,1573554399086.0,False,Reloj Jack Daniel's,1,13500,1571875934257,111.0,24900.0,0.8444444444444446

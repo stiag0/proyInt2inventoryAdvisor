@@ -1,0 +1,3 @@
+,idPedido,idUser,esCombo,nombreProducto,cantidadVendida,costoProd,idProducto,idProveedor,precioProd,ganNet
+0,1566069611952,1565968341698.0,False,Refrigerante spray Oster,1,19000,1552080330185,1601689078476.0,25000.0,0.3157894736842106
+1,1582385765405,1582212094162.0,False,Refrigerante spray Oster,1,19000,1552080330185,1601689078476.0,25000.0,0.3157894736842106

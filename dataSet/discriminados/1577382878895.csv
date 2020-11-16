@@ -1,0 +1,4 @@
+,idPedido,idUser,esCombo,nombreProducto,cantidadVendida,costoProd,idProducto,idProveedor,precioProd,ganNet
+0,1579218710244,1578494278272.0,False,soporte metalico para máquinas . Dorado o gris,1,10300,1577382878895,1601688802034.0,13900.0,0.3495145631067962
+1,1581104986760,1580246369033.0,False,soporte metalico para máquinas . Dorado o gris,1,10300,1577382878895,1601688802034.0,13900.0,0.3495145631067962
+2,1595805709710,1595459824051.0,False,soporte metalico para máquinas . Dorado o gris,1,10300,1577382878895,1601688802034.0,13900.0,0.3495145631067962
