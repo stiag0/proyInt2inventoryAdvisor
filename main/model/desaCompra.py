@@ -1,29 +1,21 @@
+from os import listdir
+from os.path import isfile, join
+import glob
+from datetime import datetime
 from sklearn.linear_model import LinearRegression
 from sklearn.model_selection import train_test_split
 from sklearn.metrics import mean_squared_error, r2_score
+from sklearn.ensemble import RandomForestRegressor
+from sklearn.metrics import f1_score, precision_score, recall_score, accuracy_score, confusion_matrix
+import sklearn as skl
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
-dfPedidos = pd.read_csv('resultados/pedidos.csv', error_bad_lines=False)
-dfProductp =pd.read_csv('resultados/productosPedidos.csv',error_bad_lines= False)
-dfUsuer =pd.read_csv('resultados/usuarios.csv',error_bad_lines= False)
-dfProv = pd.read_csv('resultados/proveedores.csv',error_bad_lines= False)
-agrupado = dfProductp.groupby('idProducto').cantidadVendida.sum()
+import math
+import json
 
-#dfProductp[distancia] = ('idPedido')
-dfProductp['ganNet'] = (dfProductp['precioProd']/(dfProductp['costoProd']*dfProductp['cantidadVendida']))-1
+dfProductp =pd.read_csv('../dataSet/productosPedidos.csv',error_bad_lines= False)
 
-vendido = dfProductp.groupby('nombreProducto').cantidadVendida.sum()
-
-agrupadoN = dfProductp.groupby('idProducto').agg(
-    nameProduct = ('nombreProducto',lambda x: x.mode().tolist()[0] if len(x.mode().tolist())>0 else np.nan),
-    ganNet=('ganNet','mean'),
-    cantVend=('cantidadVendida','sum'),
-    idProveedor = ('idProveedor',lambda x: x.mode().tolist()[0] if len(x.mode().tolist())>0 else np.nan),
-    DTiempo = ('idPedido','mean')
-)
-dfProductp['cantidadVendida'] = dfProductp.cantidadVendida.astype(int)
-agrupadoN = agrupadoN.sort_values(['cantVend','ganNet'],ascending=False)
 def calificador(Gnet, cantVenta):
     #print(Gnet,cantVenta)
     if (Gnet > 0.8 and cantVenta > 100):
@@ -46,6 +38,7 @@ def calificador(Gnet, cantVenta):
         return 0.7    
     else:
         return 0
+
 def listas(arreglo):
     val = len(arreglo) 
     for i in range(0,val):
@@ -56,7 +49,7 @@ def listas(arreglo):
         califa = calificador(ganNet, cantVend)
         #PropAcierto =
         arreglo.loc[conteo,'aciertoCompra'] = califa
-        
+
 def listasBusqueda(arreglo,arreglo2):
     val = len(arreglo) 
     for i in range(0,val):
@@ -72,3 +65,6 @@ def listasBusqueda(arreglo,arreglo2):
             elif(idProveedor == 111 or idProveedor == None ):
                 nombreProv = "noFind"
                 arreglo.loc[conteo,'nombreProv'] = nombreProv
+
+
+
