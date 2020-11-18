@@ -1,6 +1,7 @@
 from os import listdir
 from os.path import isfile, join
 import glob
+from sklearn import metrics
 from datetime import datetime
 from sklearn.linear_model import LinearRegression
 from sklearn.model_selection import train_test_split
@@ -14,7 +15,19 @@ import matplotlib.pyplot as plt
 import math
 import json
 
-dfProductp =pd.read_csv('../dataSet/productosPedidos.csv',error_bad_lines= False)
+dfProductp = pd.read_csv('../dataSet/productosPedidos.csv',error_bad_lines= False)
+
+
+x = pd.DataFrame(dfProductp, columns = ['cantidadVendida','ganNet'])
+model = KMeans(n_clusters = 5, max_iter = 1000)
+model.fit(x)
+y_labels = model.labels_
+y_kmeans = model.predict(x)
+print("predicciones ", y_kmeans)
+accuracy = metrics.adjusted_rand_score(dfProductp.cantidadVendida,y_kmeans)
+print(accuracy)
+dfProductp['Kmeans'] = y_kmeans
+dfProductp.to_csv('../dataSet/productosPedidos.csv')
 
 def calificador(Gnet, cantVenta):
     #print(Gnet,cantVenta)
