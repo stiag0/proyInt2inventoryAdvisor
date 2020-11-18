@@ -27,7 +27,7 @@ print("predicciones ", y_kmeans)
 accuracy = metrics.adjusted_rand_score(dfProductp.cantidadVendida,y_kmeans)
 print(accuracy)
 dfProductp['Kmeans'] = y_kmeans
-dfProductp.to_csv('../dataSet/productosPedidos.csv')
+dfProductp.to_csv('../../dataSet/productosPedidos.csv')
 
 def calificador(Gnet, cantVenta):
     #print(Gnet,cantVenta)
