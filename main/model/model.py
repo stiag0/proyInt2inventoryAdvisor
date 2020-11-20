@@ -17,20 +17,21 @@ import matplotlib.pyplot as plt
 import math
 import json
 
-dfProductp.to_csv('../../dataSet/productosPedidos.csv')
+from sklearn.neural_network import MLPClassifier
+def funcname(parameter_list):
+    dfProductp = pd.read_csv('../../dataSet/productosPedidos.csv')
+    #       modelo integrador
 
-#       modelo integrador
-
-# hidden_layer_sizes=(n,m),
-mlp = MLPClassifier(max_iter=1000, activation='relu')
-mlp
+    # hidden_layer_sizes=(n,m),
+    mlp = MLPClassifier(max_iter=1000, activation='relu')
+    mlp
 
 
-#X = dfProductp['prodEstrella']
-X = dfProductp['idPedido']
-Y = dfProductp['Kmeans']
-X_train, X_test, y_train, y_test = train_test_split(X,Y)
-mlp.fit(X_train.values.reshape(-1,1), y_train)
+    #X = dfProductp['prodEstrella']
+    X = dfProductp['idPedido']
+    Y = dfProductp['Kmeans']
+    X_train, X_test, y_train, y_test = train_test_split(X,Y)
+    mlp.fit(X_train.values.reshape(-1,1), y_train)
 
-pred = mlp.predict(X_test.values.reshape(-1,1))
-pred
+    pred = mlp.predict(X_test.values.reshape(-1,1))
+    return pred
