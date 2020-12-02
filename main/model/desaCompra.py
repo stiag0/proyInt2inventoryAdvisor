@@ -18,17 +18,6 @@ import json
 dfProductp = pd.read_csv('../dataSet/productosPedidos.csv',error_bad_lines= False)
 
 
-x = pd.DataFrame(dfProductp, columns = ['cantidadVendida','ganNet'])
-model = KMeans(n_clusters = 5, max_iter = 1000)
-model.fit(x)
-y_labels = model.labels_
-y_kmeans = model.predict(x)
-print("predicciones ", y_kmeans)
-accuracy = metrics.adjusted_rand_score(dfProductp.cantidadVendida,y_kmeans)
-print(accuracy)
-dfProductp['Kmeans'] = y_kmeans
-dfProductp.to_csv('../../dataSet/productosPedidos.csv')
-
 def calificador(Gnet, cantVenta):
     #print(Gnet,cantVenta)
     if (Gnet > 0.8 and cantVenta > 100):
@@ -52,32 +41,24 @@ def calificador(Gnet, cantVenta):
     else:
         return 0
 
-def listas(arreglo):
-    val = len(arreglo) 
-    for i in range(0,val):
-        conteo = arreglo.index.values[i]
-        #calificador(agrupadoN['ganNet'],agrupadoN['cantVend'])
-        ganNet = arreglo.loc[conteo,'ganNet']
-        cantVend = arreglo.loc[conteo,'cantVend']
-        califa = calificador(ganNet, cantVend)
-        #PropAcierto =
-        arreglo.loc[conteo,'aciertoCompra'] = califa
+def agrupador(dfProductp):
+    iris = dfProductp
+    x = pd.DataFrame(iris, columns = ['cantidadVendida','ganNet'])
 
-def listasBusqueda(arreglo,arreglo2):
-    val = len(arreglo) 
-    for i in range(0,val):
-        conteo = arreglo.index.values[i]
-        #calificador(agrupadoN['ganNet'],agrupadoN['cantVend'])
-        idProveedor = arreglo.loc[conteo,'idProveedor']
-        #print(i," ",idProveedor)
-        for j in range(0,len(arreglo2)):
-            idProveedor2 = arreglo2.loc[j,'idProve']
-            if(idProveedor == idProveedor2 ):
-                nombreProv = arreglo2.loc[j,'nombreProv'] 
-                arreglo.loc[conteo,'nombreProv'] = nombreProv
-            elif(idProveedor == 111 or idProveedor == None ):
-                nombreProv = "noFind"
-                arreglo.loc[conteo,'nombreProv'] = nombreProv
+    Nc = range(1,10)
+    kmeans = [KMeans(n_clusters=i) for i in Nc]
+    kmeans
+    score = [kmeans[i].fit(x).score(x) for i in range(len(kmeans))]
+    score
+    iris = dfProductp
 
-
+    model = KMeans(n_clusters = 6, max_iter = 1000)
+    model.fit(x)
+    y_labels = model.labels_
+    y_kmeans = model.predict(x)
+    accuracy = metrics.adjusted_rand_score(iris.cantidadVendida,y_kmeans)
+    print(accuracy)
+    plt.scatter(x['ganNet'],x['cantidadVendida'], c= y_kmeans, s= 30)
+    plt.xlabel('ganancia neta')
+    plt.ylabel('cantidad vendida')
 

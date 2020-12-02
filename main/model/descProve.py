@@ -11,23 +11,24 @@ def splitByProv(dataset,colY):
         #print("nombre %s" % nombreProducto)
         #df.to_csv('resultados/discriminados/%s.csv' % idProducto)
         ganNet = df.ganNet.mean()
+        cantidadVend = df.cantidadVendida.sum()
         #cantidadVend = df.cantidadVendida.mean()
-        if (ganNet > 0.8):
+        #if (ganNet > 0.8):
+        if (cantidadVend > 30):
             #print ("largo ", nombreProducto)
-            arrX = df.idPedido
+            arrX = df[['cantidadVendida','ganNet']]
             arraY = df["costoProd"] 
             X_train, X_test, y_train, y_test = train_test_split(arrX, arraY)
             
             #creando modelo lineal
             
             LR = LinearRegression()
-            LR.fit(X_train.values.reshape(-1,1), y_train.values)
+            LR.fit(X_train, y_train.values)
             
             #use model to predict on TEST data
-            prediction = LR.predict(X_test.values.reshape(-1,1))
-            
-            #metricasD( X_train, X_test, y_train, y_test,LR)
-            
+            #use model to predict on TEST data
+            prediction = LR.predict([[2,1.8]])
+
             plt.figure(figsize=(9,6))
             #plt.scatter(X_train, y_train, label = 'training Data', color = 'black', alpha = 0.5)
             #plt.scatter(X_test, y_test, label = 'test Data', color = 'g',alpha = 0.5 )
